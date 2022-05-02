@@ -2778,4 +2778,705 @@ Text Label 8450 17600 2    50   ~ 0
 #70
 Text Label 24850 23300 2    50   ~ 0
 #70
+Text Label 11600 10700 2    50   ~ 0
+~FLP_VERTICAL
+Text Label 15600 10700 2    50   ~ 0
+~FLP_VERTICAL
+Text Label 32450 15500 2    50   ~ 0
+~FLP_VERTICAL
+Text Label 32450 15600 2    50   ~ 0
+~FLP_INDEX
+Text Label 11600 10600 2    50   ~ 0
+~FLP_INDEX
+Text Label 15600 10600 2    50   ~ 0
+~FLP_INDEX
+Text Label 32450 15700 2    50   ~ 0
+~FLP_DRVS1
+Text Label 13600 10600 2    50   ~ 0
+~FLP_DRVS1
+Text Label 32450 15900 2    50   ~ 0
+~FLP_DRVS2
+Text Label 17600 10600 2    50   ~ 0
+~FLP_DRVS2
+Text Label 32450 16000 2    50   ~ 0
+~FLP_MOTE1
+Text Label 32450 16100 2    50   ~ 0
+~FLP_MOTE2
+Text Label 16600 10500 2    50   ~ 0
+~FLP_MOTE2
+Text Label 17600 10500 2    50   ~ 0
+~FLP_DIR
+Text Label 13600 10500 2    50   ~ 0
+~FLP_DIR
+Text Label 32450 16200 2    50   ~ 0
+~FLP_DIR
+Text Label 12600 10500 2    50   ~ 0
+~FLP_MOTE1
+Text Label 32450 16300 2    50   ~ 0
+~FLP_STEP
+Text Label 15600 10400 2    50   ~ 0
+~FLP_STEP
+Text Label 11600 10400 2    50   ~ 0
+~FLP_STEP
+Text Label 32450 16500 2    50   ~ 0
+~FLP_WDATA
+Text Label 12600 10400 2    50   ~ 0
+~FLP_WDATA
+Text Label 16600 10400 2    50   ~ 0
+~FLP_WDATA
+Text Label 32450 16600 2    50   ~ 0
+~FLP_WGATE
+Text Label 17600 10400 2    50   ~ 0
+~FLP_WGATE
+Text Label 13600 10400 2    50   ~ 0
+~FLP_WGATE
+Text Label 32450 16700 2    50   ~ 0
+~FLP_TRK0
+Text Label 11600 10300 2    50   ~ 0
+~FLP_TRK0
+Text Label 15600 10300 2    50   ~ 0
+~FLP_TRK0
+Text Label 32450 16800 2    50   ~ 0
+~FLP_WPT
+Text Label 16600 10300 2    50   ~ 0
+~FLP_WPT
+Text Label 12600 10300 2    50   ~ 0
+~FLP_WPT
+Text Label 32450 16900 2    50   ~ 0
+~FLP_RDATA
+Text Label 17600 10300 2    50   ~ 0
+~FLP_RDATA
+Text Label 13600 10300 2    50   ~ 0
+~FLP_RDATA
+Text Label 32450 17000 2    50   ~ 0
+~FLP_SIDE1
+Text Label 16600 10200 2    50   ~ 0
+~FLP_SIDE1
+Text Label 12600 10200 2    50   ~ 0
+~FLP_SIDE1
+Text Label 32450 17200 2    50   ~ 0
+~FLP_DSKCHG
+Text Label 17600 10200 2    50   ~ 0
+~FLP_DSKCHG
+Text Label 13600 10200 2    50   ~ 0
+~FLP_DSKCHG
+Text Label 32450 17300 2    50   ~ 0
+NC
+Text Label 32450 17400 2    50   ~ 0
+NC
+Text Label 32450 17600 2    50   ~ 0
+#71
+Text Label 24150 23000 2    50   ~ 0
+#71
+Text Label 32450 18200 2    50   ~ 0
+NC
+Text Label 32450 18600 2    50   ~ 0
+#72
+Text Label 23450 18600 2    50   ~ 0
+#72
+Text Label 35450 18600 2    50   ~ 0
+#72
+Text Label 38450 18600 2    50   ~ 0
+#72
+Text Label 41450 18600 2    50   ~ 0
+#72
+$Comp
+L custom:DIN41612_3x16 J?
+U 1 1 62760C5F
+P 35350 9650
+F 0 "J?" H 35250 9550 50  0000 L CNN
+F 1 "DIN41612_3x16" H 35050 9650 50  0000 L CNN
+F 2 "" H 35350 9550 50  0001 C CNN
+F 3 "" H 35350 9550 50  0001 C CNN
+	1    35350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DIN41612_3x16 J?
+U 2 1 62764AD5
+P 36350 9650
+F 0 "J?" H 36250 9550 50  0000 L CNN
+F 1 "DIN41612_3x16" H 36050 9650 50  0000 L CNN
+F 2 "" H 36350 9550 50  0001 C CNN
+F 3 "" H 36350 9550 50  0001 C CNN
+	2    36350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DIN41612_3x16 J?
+U 3 1 62764ADF
+P 37350 9650
+F 0 "J?" H 37250 9550 50  0000 L CNN
+F 1 "DIN41612_3x16" H 37050 9650 50  0000 L CNN
+F 2 "" H 37350 9550 50  0001 C CNN
+F 3 "" H 37350 9550 50  0001 C CNN
+	3    37350 9650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	34500 9500 37750 9500
+Wire Notes Line
+	37750 9500 37750 11600
+Wire Notes Line
+	37750 11600 34500 11600
+Wire Notes Line
+	34500 11600 34500 9500
+Text Notes 35600 9350 0    200  ~ 40
+Loc 05
+Text Label 35100 10300 2    50   ~ 0
+#72
+Text Label 32450 18700 2    50   ~ 0
+#73
+Text Label 23450 18700 2    50   ~ 0
+#73
+Text Label 35450 18700 2    50   ~ 0
+#73
+Text Label 38450 18700 2    50   ~ 0
+#73
+Text Label 41450 18700 2    50   ~ 0
+#73
+Text Label 35100 10400 2    50   ~ 0
+#73
+Text Label 35100 10500 2    50   ~ 0
+#74
+Text Label 23450 18800 2    50   ~ 0
+#74
+Text Label 32450 18800 2    50   ~ 0
+#74
+Text Label 35450 18800 2    50   ~ 0
+#74
+Text Label 38450 18800 2    50   ~ 0
+#74
+Text Label 41450 18800 2    50   ~ 0
+#74
+Text Label 32450 18900 2    50   ~ 0
+#75
+Text Label 23450 18900 2    50   ~ 0
+#75
+Text Label 35450 18900 2    50   ~ 0
+#75
+Text Label 38450 18900 2    50   ~ 0
+#75
+Text Label 41450 18900 2    50   ~ 0
+#75
+Text Label 35100 10600 2    50   ~ 0
+#75
+Text Label 32450 19000 2    50   ~ 0
+-12VF
+Text Label 35450 19000 2    50   ~ 0
+-12VF
+Text Label 38450 19000 2    50   ~ 0
+-12VF
+Text Label 5450 19000 2    50   ~ 0
+-12VF
+Text Label 8450 19000 2    50   ~ 0
+-12VF
+Text Label 11450 19000 2    50   ~ 0
+-12VF
+Text Label 32450 19100 2    50   ~ 0
+#76
+Text Label 35100 10700 2    50   ~ 0
+#76
+Text Label 35450 19100 2    50   ~ 0
+#76
+Text Label 38450 19100 2    50   ~ 0
+#76
+Text Label 41450 19100 2    50   ~ 0
+#76
+Text Label 23450 19100 2    50   ~ 0
+#76
+Text Label 32450 19200 2    50   ~ 0
+#77
+Text Label 23450 19200 2    50   ~ 0
+#77
+Text Label 35450 19200 2    50   ~ 0
+#77
+Text Label 38450 19200 2    50   ~ 0
+#77
+Text Label 41450 19200 2    50   ~ 0
+#77
+Text Label 35100 10900 2    50   ~ 0
+#77
+Text Label 33850 16900 2    50   ~ 0
+#77
+Text Label 36850 16900 2    50   ~ 0
+#77
+Text Label 39850 16900 2    50   ~ 0
+#77
+Text Label 42850 16900 2    50   ~ 0
+#77
+Text Label 32450 19300 2    50   ~ 0
+#78
+Text Label 23450 19300 2    50   ~ 0
+#78
+Text Label 35450 19300 2    50   ~ 0
+#78
+Text Label 38450 19300 2    50   ~ 0
+#78
+Text Label 41450 19300 2    50   ~ 0
+#78
+Text Label 35100 11200 2    50   ~ 0
+#78
+Text Label 33150 15400 2    50   ~ 0
+NC
+Text Label 33150 15500 2    50   ~ 0
+#79
+Text Label 19600 10500 2    50   ~ 0
+#79
+Text Label 23600 10500 2    50   ~ 0
+#79
+Text Label 21600 10700 2    50   ~ 0
+#80
+Text Label 25600 10700 2    50   ~ 0
+#80
+Text Label 33150 15600 2    50   ~ 0
+#80
+Text Label 33150 15700 2    50   ~ 0
+#81
+Text Label 19600 10600 2    50   ~ 0
+#81
+Text Label 23600 10600 2    50   ~ 0
+#81
+Text Label 33150 15800 2    50   ~ 0
+#82
+Text Label 20600 10600 2    50   ~ 0
+#82
+Text Label 24600 10600 2    50   ~ 0
+#82
+Text Label 33150 15900 2    50   ~ 0
+#83
+Text Label 21600 10600 2    50   ~ 0
+#83
+Text Label 25600 10600 2    50   ~ 0
+#83
+Text Label 24600 10700 2    50   ~ 0
+#84
+Text Label 20600 10700 2    50   ~ 0
+#84
+Text Label 33150 16000 2    50   ~ 0
+#84
+Text Label 33150 16100 2    50   ~ 0
+#85
+Text Label 21600 10500 2    50   ~ 0
+#85
+Text Label 25600 10500 2    50   ~ 0
+#85
+Text Label 19600 10400 2    50   ~ 0
+#86
+Text Label 23600 10400 2    50   ~ 0
+#86
+Text Label 33150 16200 2    50   ~ 0
+#86
+Text Label 33150 16300 2    50   ~ 0
+~DRV_READY
+Text Label 12600 10700 2    50   ~ 0
+~DRV_READY
+Text Label 16600 10700 2    50   ~ 0
+~DRV_READY
+Text Label 20600 10400 2    50   ~ 0
+~DRV_READY
+Text Label 24600 10400 2    50   ~ 0
+~DRV_READY
+Text Label 33150 16400 2    50   ~ 0
+#87
+Text Label 25600 10400 2    50   ~ 0
+#87
+Text Label 21600 10400 2    50   ~ 0
+#87
+Text Label 33150 16500 2    50   ~ 0
+#88
+Text Label 19600 10300 2    50   ~ 0
+#88
+Text Label 33150 16600 2    50   ~ 0
+#89
+Text Label 23600 10300 2    50   ~ 0
+#89
+Text Label 33150 16700 2    50   ~ 0
+#90
+Text Label 21600 10200 2    50   ~ 0
+#90
+Text Label 25600 10200 2    50   ~ 0
+#90
+Text Label 33150 16800 2    50   ~ 0
+NC
+Text Label 33150 16900 2    50   ~ 0
+#91
+Text Label 36150 16900 2    50   ~ 0
+#91
+Text Label 39150 16900 2    50   ~ 0
+#91
+Text Label 42150 16900 2    50   ~ 0
+#91
+Text Label 33150 17100 2    50   ~ 0
+#92
+Text Label 24850 15700 2    50   ~ 0
+#92
+Text Label 33150 17200 2    50   ~ 0
+NC
+Text Label 33150 17300 2    50   ~ 0
+#93
+Text Label 24850 16100 2    50   ~ 0
+#93
+Text Label 36150 17300 2    50   ~ 0
+#93
+Text Label 39150 17300 2    50   ~ 0
+#93
+Text Label 42150 17300 2    50   ~ 0
+#93
+Text Label 33150 17400 2    50   ~ 0
+#94
+Text Label 24150 16300 2    50   ~ 0
+#94
+Text Label 36150 17400 2    50   ~ 0
+#94
+Text Label 39150 17400 2    50   ~ 0
+#94
+Text Label 42150 17400 2    50   ~ 0
+#94
+Text Label 33150 17500 2    50   ~ 0
+#95
+Text Label 36150 17500 2    50   ~ 0
+#95
+Text Label 39150 17500 2    50   ~ 0
+#95
+Text Label 42150 17500 2    50   ~ 0
+#95
+Text Label 24150 16400 2    50   ~ 0
+#95
+Text Label 33150 17600 2    50   ~ 0
+#96
+Text Label 33150 17900 2    50   ~ 0
+#96
+Text Label 33150 17700 2    50   ~ 0
+#97
+Text Label 36150 17700 2    50   ~ 0
+#97
+Text Label 39150 17700 2    50   ~ 0
+#97
+Text Label 42150 17700 2    50   ~ 0
+#97
+Text Label 24850 17200 2    50   ~ 0
+#97
+Text Label 33150 17800 2    50   ~ 0
+#98
+Text Label 36150 17800 2    50   ~ 0
+#98
+Text Label 39150 17800 2    50   ~ 0
+#98
+Text Label 42150 17800 2    50   ~ 0
+#98
+Text Label 24850 17800 2    50   ~ 0
+#98
+Text Label 33150 18000 2    50   ~ 0
+#99
+Text Label 24850 18000 2    50   ~ 0
+#99
+Text Label 33150 18100 2    50   ~ 0
+NC
+Text Label 33150 18200 2    50   ~ 0
+#100
+Text Label 36150 18200 2    50   ~ 0
+#100
+Text Label 39150 18200 2    50   ~ 0
+#100
+Text Label 42150 18200 2    50   ~ 0
+#100
+Text Label 24150 18200 2    50   ~ 0
+#100
+Text Label 33150 18300 2    50   ~ 0
+NC
+Text Label 33150 18400 2    50   ~ 0
+#101
+Text Label 36150 18400 2    50   ~ 0
+#101
+Text Label 39150 18400 2    50   ~ 0
+#101
+Text Label 42150 18400 2    50   ~ 0
+#101
+Text Label 24150 18400 2    50   ~ 0
+#101
+Text Label 33150 18500 2    50   ~ 0
+#102
+Text Label 36150 18500 2    50   ~ 0
+#102
+Text Label 39150 18500 2    50   ~ 0
+#102
+Text Label 42150 18500 2    50   ~ 0
+#102
+Text Label 24150 18500 2    50   ~ 0
+#102
+Text Label 33150 18700 2    50   ~ 0
+#103
+Text Label 36150 18700 2    50   ~ 0
+#103
+Text Label 39150 18700 2    50   ~ 0
+#103
+Text Label 42150 18700 2    50   ~ 0
+#103
+Text Label 24150 18700 2    50   ~ 0
+#103
+Text Label 36100 10500 2    50   ~ 0
+#103
+Text Label 33150 18800 2    50   ~ 0
+#104
+Text Label 36150 18800 2    50   ~ 0
+#104
+Text Label 39150 18800 2    50   ~ 0
+#104
+Text Label 42150 18800 2    50   ~ 0
+#104
+Text Label 24150 18800 2    50   ~ 0
+#104
+Text Label 24850 17700 2    50   ~ 0
+#104
+Text Label 33150 18900 2    50   ~ 0
+#105
+Text Label 36150 18900 2    50   ~ 0
+#105
+Text Label 39150 18900 2    50   ~ 0
+#105
+Text Label 42150 18900 2    50   ~ 0
+#105
+Text Label 24150 18900 2    50   ~ 0
+#105
+Text Label 36100 10700 2    50   ~ 0
+#105
+Text Label 36100 10600 2    50   ~ 0
+#104
+Text Label 33150 19000 2    50   ~ 0
+#106
+Text Label 36150 19000 2    50   ~ 0
+#106
+Text Label 39150 19000 2    50   ~ 0
+#106
+Text Label 42150 19000 2    50   ~ 0
+#106
+Text Label 24150 19000 2    50   ~ 0
+#106
+Text Label 36100 10800 2    50   ~ 0
+#106
+Text Label 33150 19100 2    50   ~ 0
+#107
+Text Label 36150 19100 2    50   ~ 0
+#107
+Text Label 39150 19100 2    50   ~ 0
+#107
+Text Label 42150 19100 2    50   ~ 0
+#107
+Text Label 24150 19100 2    50   ~ 0
+#107
+Text Label 36100 11200 2    50   ~ 0
+#107
+Text Label 33150 19200 2    50   ~ 0
+#108
+Text Label 36150 19200 2    50   ~ 0
+#108
+Text Label 39150 19200 2    50   ~ 0
+#108
+Text Label 42150 19200 2    50   ~ 0
+#108
+Text Label 24150 19200 2    50   ~ 0
+#108
+Text Label 36100 11300 2    50   ~ 0
+#108
+Text Label 24150 19300 2    50   ~ 0
+#109
+Text Label 33150 19300 2    50   ~ 0
+#109
+Text Label 36150 19300 2    50   ~ 0
+#109
+Text Label 39150 19300 2    50   ~ 0
+#109
+Text Label 42150 19300 2    50   ~ 0
+#109
+Text Label 36100 11400 2    50   ~ 0
+#109
+Text Label 33850 15400 2    50   ~ 0
+#110
+Text Label 19600 10200 2    50   ~ 0
+#110
+Text Label 33850 15500 2    50   ~ 0
+#111
+Text Label 21600 10000 2    50   ~ 0
+#111
+Text Label 33850 15700 2    50   ~ 0
+#112
+Text Label 19600 9900 2    50   ~ 0
+#112
+Text Label 33850 15800 2    50   ~ 0
+#113
+Text Label 36850 15800 2    50   ~ 0
+#113
+Text Label 39850 15800 2    50   ~ 0
+#113
+Text Label 42850 15800 2    50   ~ 0
+#113
+Text Label 24850 19300 2    50   ~ 0
+#113
+Text Label 33850 19300 2    50   ~ 0
+#113
+Text Label 36850 19300 2    50   ~ 0
+#113
+Text Label 39850 19300 2    50   ~ 0
+#113
+Text Label 37100 10700 2    50   ~ 0
+#113
+Text Label 33850 15900 2    50   ~ 0
+#114
+Text Label 20600 9900 2    50   ~ 0
+#114
+Text Label 33850 16100 2    50   ~ 0
+#115
+Text Label 21600 9900 2    50   ~ 0
+#115
+Text Label 33850 16200 2    50   ~ 0
+#116
+Text Label 23600 10200 2    50   ~ 0
+#116
+Text Label 33850 16300 2    50   ~ 0
+#117
+Text Label 25600 10000 2    50   ~ 0
+#117
+Text Label 33850 16500 2    50   ~ 0
+#118
+Text Label 23600 9900 2    50   ~ 0
+#118
+Text Label 33850 16600 2    50   ~ 0
+#119
+Text Label 24600 9900 2    50   ~ 0
+#119
+Text Label 33850 16700 2    50   ~ 0
+NC
+Text Label 33850 16800 2    50   ~ 0
+#120
+Text Label 25600 9900 2    50   ~ 0
+#120
+Text Label 33850 17000 2    50   ~ 0
+NC
+Text Label 33850 17100 2    50   ~ 0
+#121
+Text Label 36150 17100 2    50   ~ 0
+#121
+Text Label 33850 17200 2    50   ~ 0
+#122
+Text Label 36850 17200 2    50   ~ 0
+#122
+Text Label 39850 17200 2    50   ~ 0
+#122
+Text Label 42850 17200 2    50   ~ 0
+#122
+Text Label 24150 16000 2    50   ~ 0
+#122
+Text Label 33850 17300 2    50   ~ 0
+#123
+Text Label 36850 17300 2    50   ~ 0
+#123
+Text Label 39850 17300 2    50   ~ 0
+#123
+Text Label 42850 17300 2    50   ~ 0
+#123
+Text Label 24150 16100 2    50   ~ 0
+#123
+Text Label 33850 17400 2    50   ~ 0
+#124
+Text Label 36850 17400 2    50   ~ 0
+#124
+Text Label 39850 17400 2    50   ~ 0
+#124
+Text Label 42850 17400 2    50   ~ 0
+#124
+Text Label 24850 16300 2    50   ~ 0
+#124
+Text Label 33850 17500 2    50   ~ 0
+#125
+Text Label 36150 18000 2    50   ~ 0
+#125
+Text Label 39150 18000 2    50   ~ 0
+#125
+Text Label 42150 18000 2    50   ~ 0
+#125
+Text Label 33850 17600 2    50   ~ 0
+NC
+Text Label 33850 17700 2    50   ~ 0
+#126
+Text Label 36850 17700 2    50   ~ 0
+#126
+Text Label 39850 17700 2    50   ~ 0
+#126
+Text Label 42850 17700 2    50   ~ 0
+#126
+Text Label 24850 17100 2    50   ~ 0
+#126
+Text Label 33850 17800 2    50   ~ 0
+NC
+Text Label 33850 18200 2    50   ~ 0
+#127
+Text Label 36850 18200 2    50   ~ 0
+#127
+Text Label 39850 18200 2    50   ~ 0
+#127
+Text Label 42850 18200 2    50   ~ 0
+#127
+Text Label 24850 18200 2    50   ~ 0
+#127
+Text Label 33850 18400 2    50   ~ 0
+NC
+Text Label 33850 18700 2    50   ~ 0
+#128
+Text Label 36850 18700 2    50   ~ 0
+#128
+Text Label 39850 18700 2    50   ~ 0
+#128
+Text Label 42850 18700 2    50   ~ 0
+#128
+Text Label 24850 18700 2    50   ~ 0
+#128
+Text Label 33850 18800 2    50   ~ 0
+#129
+Text Label 36850 18800 2    50   ~ 0
+#129
+Text Label 39850 18800 2    50   ~ 0
+#129
+Text Label 42850 18800 2    50   ~ 0
+#129
+Text Label 24850 18800 2    50   ~ 0
+#129
+Text Label 37100 10300 2    50   ~ 0
+#129
+Text Label 36100 10400 2    50   ~ 0
+#128
+Text Label 33850 18900 2    50   ~ 0
+#130
+Text Label 36850 18900 2    50   ~ 0
+#130
+Text Label 39850 18900 2    50   ~ 0
+#130
+Text Label 42850 18900 2    50   ~ 0
+#130
+Text Label 24850 18900 2    50   ~ 0
+#130
+Text Label 37100 10400 2    50   ~ 0
+#130
+Text Label 33850 19100 2    50   ~ 0
+#131
+Text Label 36850 19100 2    50   ~ 0
+#131
+Text Label 39850 19100 2    50   ~ 0
+#131
+Text Label 42850 19100 2    50   ~ 0
+#131
+Text Label 37100 10500 2    50   ~ 0
+#131
+Text Label 24850 19100 2    50   ~ 0
+#131
+Text Label 33850 19200 2    50   ~ 0
+#132
+Text Label 36850 19200 2    50   ~ 0
+#132
+Text Label 39850 19200 2    50   ~ 0
+#132
+Text Label 42850 19200 2    50   ~ 0
+#132
+Text Label 37100 10600 2    50   ~ 0
+#132
 $EndSCHEMATC

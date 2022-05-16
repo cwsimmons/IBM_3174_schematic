@@ -1324,4 +1324,16 @@ Text Label 1900 2400 2    50   ~ 0
 NC
 Text Label 1900 2500 2    50   ~ 0
 NC
+Text Label 13850 2500 0    50   ~ 0
+GND
+Text Label 13100 2500 0    50   ~ 0
+GND
+Text Label 13850 1400 0    50   ~ 0
+GND
+Text Label 13100 1000 0    50   ~ 0
+VCC
+Text Label 13850 1000 0    50   ~ 0
+VCC
+Text Label 13100 1500 0    50   ~ 0
+VCC
 $EndSCHEMATC

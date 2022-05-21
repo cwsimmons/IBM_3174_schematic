@@ -95,7 +95,7 @@ L Device:LED CR5
 U 1 1 62838480
 P 5650 1400
 F 0 "CR5" H 5643 1617 50  0000 C CNN
-F 1 "LED" H 5643 1526 50  0000 C CNN
+F 1 "DATA_TRANSFER" H 5643 1526 50  0000 C CNN
 F 2 "" H 5650 1400 50  0001 C CNN
 F 3 "~" H 5650 1400 50  0001 C CNN
 	1    5650 1400
@@ -106,7 +106,7 @@ L Device:LED CR6
 U 1 1 62838F6A
 P 6450 1400
 F 0 "CR6" H 6443 1617 50  0000 C CNN
-F 1 "LED" H 6443 1526 50  0000 C CNN
+F 1 "CHECK_COND" H 6443 1526 50  0000 C CNN
 F 2 "" H 6450 1400 50  0001 C CNN
 F 3 "~" H 6450 1400 50  0001 C CNN
 	1    6450 1400
@@ -115,12 +115,12 @@ $EndComp
 $Comp
 L IBM_3174:6188432 U?
 U 1 1 6283B0C4
-P 7300 4700
-F 0 "U?" H 7300 4715 50  0000 C CNN
-F 1 "6188432" H 7300 4624 50  0000 C CNN
-F 2 "" H 7300 4700 50  0001 C CNN
-F 3 "" H 7300 4700 50  0001 C CNN
-	1    7300 4700
+P 7250 4700
+F 0 "U?" H 7250 4715 50  0000 C CNN
+F 1 "6188432" H 7250 4624 50  0000 C CNN
+F 2 "" H 7250 4700 50  0001 C CNN
+F 3 "" H 7250 4700 50  0001 C CNN
+	1    7250 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -170,13 +170,13 @@ $EndComp
 $Comp
 L Device:R_US R3
 U 1 1 6284194B
-P 9600 1800
-F 0 "R3" V 9395 1800 50  0000 C CNN
-F 1 "R_US" V 9486 1800 50  0000 C CNN
-F 2 "" V 9640 1790 50  0001 C CNN
-F 3 "~" H 9600 1800 50  0001 C CNN
-	1    9600 1800
-	0    1    1    0   
+P 10000 2600
+F 0 "R3" V 9795 2600 50  0000 C CNN
+F 1 "R_US" V 9886 2600 50  0000 C CNN
+F 2 "" V 10040 2590 50  0001 C CNN
+F 3 "~" H 10000 2600 50  0001 C CNN
+	1    10000 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R4
@@ -450,7 +450,7 @@ Text Label 9450 6150 2    50   ~ 0
 5V
 Text Label 10200 6150 2    50   ~ 0
 5V
-Text Label 6950 5750 2    50   ~ 0
+Text Label 6800 5750 2    50   ~ 0
 GND
 Text Label 7150 4500 2    50   ~ 0
 GND
@@ -480,48 +480,48 @@ Text Label 5800 1400 0    50   ~ 0
 5V
 Text Label 6350 1950 0    50   ~ 0
 5V
-Text Label 7650 4950 0    50   ~ 0
+Text Label 7700 4950 0    50   ~ 0
 5V
 Text Label 10450 3000 0    50   ~ 0
 5V
 Text Label 9000 3000 2    50   ~ 0
 GND
 Text Label 8700 4750 2    50   ~ 0
-##1
+~KEY_IML
 Text Label 6150 6500 0    50   ~ 0
-##1
+~KEY_IML
 Text Label 8700 4850 2    50   ~ 0
-##2
+DISP_D0
 Text Label 6350 3250 0    50   ~ 0
-##2
+DISP_D0
 Text Label 8700 4950 2    50   ~ 0
-##3
+DISP_D1
 Text Label 6350 3150 0    50   ~ 0
-##3
+DISP_D1
 Text Label 8700 5050 2    50   ~ 0
-##4
+DISP_D2
 Text Label 6350 3050 0    50   ~ 0
-##4
+DISP_D2
 Text Label 9450 4950 2    50   ~ 0
-##5
+DISP_D3
 Text Label 6350 2950 0    50   ~ 0
-##5
+DISP_D3
 Text Label 9450 5150 2    50   ~ 0
-##6
+DISP_L0
 Text Label 6350 2850 0    50   ~ 0
-##6
+DISP_L0
 Text Label 8700 5250 2    50   ~ 0
-##7
+DISP_L1
 Text Label 6350 2750 0    50   ~ 0
-##7
+DISP_L1
 Text Label 9450 5050 2    50   ~ 0
-##8
+DISP_L2
 Text Label 6350 2650 0    50   ~ 0
-##8
+DISP_L2
 Text Label 8700 5150 2    50   ~ 0
-##9
+DISP_L3
 Text Label 6350 2550 0    50   ~ 0
-##9
+DISP_L3
 Text Label 9450 6050 2    50   ~ 0
 ##10
 Text Label 9400 2900 0    50   ~ 0
@@ -531,44 +531,44 @@ Text Label 9400 3100 0    50   ~ 0
 Text Label 9450 5950 2    50   ~ 0
 ##11
 Text Label 8700 5950 2    50   ~ 0
-##12
-Text Label 7650 5050 0    50   ~ 0
-##12
+KEY_A
+Text Label 7700 5050 0    50   ~ 0
+KEY_A
 Text Label 8700 5850 2    50   ~ 0
-##13
-Text Label 7650 5150 0    50   ~ 0
-##13
-Text Label 7650 5250 0    50   ~ 0
-##14
+KEY_B
+Text Label 7700 5150 0    50   ~ 0
+KEY_B
+Text Label 7700 5250 0    50   ~ 0
+KEY_C
 Text Label 8700 5750 2    50   ~ 0
-##14
+KEY_C
 Text Label 8700 5650 2    50   ~ 0
-##15
-Text Label 7650 5350 0    50   ~ 0
-##15
+KEY_D
+Text Label 7700 5350 0    50   ~ 0
+KEY_D
 Text Label 9450 5750 2    50   ~ 0
-##16
-Text Label 7650 5450 0    50   ~ 0
-##16
+~KEY_READ
+Text Label 7700 5450 0    50   ~ 0
+~KEY_READ
 Text Label 9450 5650 2    50   ~ 0
-##17
-Text Label 7650 5550 0    50   ~ 0
-##17
-Text Label 6950 5250 2    50   ~ 0
-##18
+KEY_AVAL
+Text Label 7700 5550 0    50   ~ 0
+KEY_AVAL
+Text Label 6800 5250 2    50   ~ 0
+~ROW4
 Text Label 9450 5850 2    50   ~ 0
-##18
+~ROW4
 Text Label 10200 5950 2    50   ~ 0
-##19
+~CHECK_COND
 Text Label 9750 1500 0    50   ~ 0
-##19
+~CHECK_COND
 Text Label 10200 5850 2    50   ~ 0
-##20
+~DATA_TRANSFER
 Text Label 9750 1200 0    50   ~ 0
-##20
+~DATA_TRANSFER
 Text Label 10200 5750 2    50   ~ 0
 ##21
-Text Label 9750 1800 0    50   ~ 0
+Text Label 10000 2450 1    50   ~ 0
 ##21
 Text Label 10200 5650 2    50   ~ 0
 NC
@@ -710,10 +710,6 @@ Text Label 9450 1500 2    50   ~ 0
 ##52
 Text Label 6300 1400 2    50   ~ 0
 ##52
-Text Label 9450 1800 2    50   ~ 0
-##53
-Text Label 10150 3000 2    50   ~ 0
-##53
 Text Label 7200 3200 3    50   ~ 0
 ##54
 Text Label 8050 1250 2    50   ~ 0
@@ -728,13 +724,13 @@ Text Label 8350 2300 0    50   ~ 0
 ##50
 Text Label 7450 4100 0    50   ~ 0
 ##55
-Text Label 6950 5350 2    50   ~ 0
+Text Label 6800 5350 2    50   ~ 0
 ##55
-Text Label 6950 5450 2    50   ~ 0
+Text Label 6800 5450 2    50   ~ 0
 ##56
 Text Label 7450 4500 0    50   ~ 0
 ##56
-Text Label 6950 4950 2    50   ~ 0
+Text Label 6800 4950 2    50   ~ 0
 ##57
 Text Label 750  5000 2    50   ~ 0
 ##57
@@ -755,7 +751,7 @@ Text Label 2750 5000 2    50   ~ 0
 ##57
 Text Label 1750 6500 2    50   ~ 0
 ##57
-Text Label 6950 5050 2    50   ~ 0
+Text Label 6800 5050 2    50   ~ 0
 ##58
 Text Label 750  5500 2    50   ~ 0
 ##58
@@ -765,7 +761,7 @@ Text Label 2750 5500 2    50   ~ 0
 ##58
 Text Label 750  6000 2    50   ~ 0
 ##58
-Text Label 6950 5150 2    50   ~ 0
+Text Label 6800 5150 2    50   ~ 0
 ##59
 Text Label 1750 6000 2    50   ~ 0
 ##59
@@ -774,14 +770,14 @@ Text Label 2750 6000 2    50   ~ 0
 Text Label 3750 5500 2    50   ~ 0
 ##59
 Text Label 4750 5500 2    50   ~ 0
-##18
+~ROW4
 Text Label 4750 6000 2    50   ~ 0
-##18
+~ROW4
 Text Label 4750 6500 2    50   ~ 0
-##18
+~ROW4
 Text Label 3750 6500 2    50   ~ 0
-##18
-Text Label 7650 5750 0    50   ~ 0
+~ROW4
+Text Label 7700 5750 0    50   ~ 0
 ##60
 Text Label 1150 5000 0    50   ~ 0
 ##60
@@ -791,7 +787,7 @@ Text Label 3150 6000 0    50   ~ 0
 ##60
 Text Label 5150 6000 0    50   ~ 0
 ##60
-Text Label 6950 5650 2    50   ~ 0
+Text Label 6800 5650 2    50   ~ 0
 ##61
 Text Label 2150 5000 0    50   ~ 0
 ##61
@@ -799,7 +795,7 @@ Text Label 3150 5500 0    50   ~ 0
 ##61
 Text Label 5150 5500 0    50   ~ 0
 ##61
-Text Label 6950 5550 2    50   ~ 0
+Text Label 6800 5550 2    50   ~ 0
 ##62
 Text Label 3150 5000 0    50   ~ 0
 ##62
@@ -809,7 +805,7 @@ Text Label 4150 5500 0    50   ~ 0
 ##62
 Text Label 4150 6500 0    50   ~ 0
 ##62
-Text Label 7650 5650 0    50   ~ 0
+Text Label 7700 5650 0    50   ~ 0
 ##63
 Text Label 1150 5500 0    50   ~ 0
 ##63
@@ -819,4 +815,8 @@ Text Label 2150 6500 0    50   ~ 0
 ##63
 Text Label 5150 6500 0    50   ~ 0
 ##63
+Wire Wire Line
+	10000 2750 10000 3000
+Wire Wire Line
+	10000 3000 10150 3000
 $EndSCHEMATC

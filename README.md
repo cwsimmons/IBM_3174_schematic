@@ -10,4 +10,4 @@ This is a work in progress
 | 39F8497B | 9501 Processor Card        | Tracing has started                        |
 | 66X2555  | 1x Front Panel Adapter     | Fully traced                               |
 | 4804680  | 1x Front Panel             | Fully Traced                               |
-| 66X2450  | 1MB Memory Module          | Parts placed                               |
+| 66X2450  | 1MB Memory Module          | Fully Traced                               |

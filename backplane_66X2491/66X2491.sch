@@ -4041,4 +4041,34 @@ Text Label 37100 10100 2    50   ~ 0
 POR
 Text Label 37100 10200 2    50   ~ 0
 POR
+Text Label 27150 23500 2    50   ~ 0
+#196
+Text Label 30150 23300 2    50   ~ 0
+#196
+Text Label 26450 23400 2    50   ~ 0
+#197
+Text Label 29450 23200 2    50   ~ 0
+#197
+Text Label 26450 23500 2    50   ~ 0
+#198
+Text Label 30850 23300 2    50   ~ 0
+#198
+Text Label 27850 23400 2    50   ~ 0
+#199
+Text Label 30150 23200 2    50   ~ 0
+#199
+Text Label 26450 23200 2    50   ~ 0
+#200
+Text Label 27150 23300 2    50   ~ 0
+#200
+Text Label 27150 23200 2    50   ~ 0
+#200
+Text Label 27150 23100 2    50   ~ 0
+#200
+Text Label 27850 23300 2    50   ~ 0
+#200
+Text Label 27850 23200 2    50   ~ 0
+#200
+Text Label 27850 23000 2    50   ~ 0
+#200
 $EndSCHEMATC

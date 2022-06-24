@@ -1028,12 +1028,12 @@ $EndComp
 $Comp
 L Device:R_Network05_US IR2
 U 1 1 62B6F860
-P 6100 7750
-F 0 "IR2" V 6525 7750 50  0000 C CNN
-F 1 "1k" V 6434 7750 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP6" V 6475 7750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6100 7750 50  0001 C CNN
-	1    6100 7750
+P 5450 7650
+F 0 "IR2" V 5875 7650 50  0000 C CNN
+F 1 "1k" V 5784 7650 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 5825 7650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5450 7650 50  0001 C CNN
+	1    5450 7650
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1072,12 +1072,12 @@ $EndComp
 $Comp
 L Device:R_Pack02_SIP IR7
 U 1 1 62B7713C
-P 16650 15150
-F 0 "IR7" V 17075 15131 50  0000 C CNN
-F 1 "19" V 16984 15131 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 17025 15150 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 16650 15150 50  0001 C CNN
-	1    16650 15150
+P 16650 15550
+F 0 "IR7" V 17075 15531 50  0000 C CNN
+F 1 "19" V 16984 15531 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 17025 15550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 16650 15550 50  0001 C CNN
+	1    16650 15550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2550,13 +2550,13 @@ Text Label 23900 16050 2    50   ~ 0
 BANK_B_A8
 Text Label 25400 16050 2    50   ~ 0
 BANK_B_A8
-Text Label 16850 15250 0    50   ~ 0
+Text Label 16850 15650 0    50   ~ 0
 BANK_B_A8
 Text Label 16850 14400 0    50   ~ 0
 BANK_A_A8_2
 Text Label 10850 11200 0    50   ~ 0
 BANK_A_A8_2
-Text Label 16850 15350 0    50   ~ 0
+Text Label 16850 15750 0    50   ~ 0
 BANK_B_A8_2
 Text Label 10850 11500 0    50   ~ 0
 BANK_B_A8_2
@@ -2600,7 +2600,7 @@ Text Label 19400 4200 2    50   ~ 0
 ~WRITE_A
 Text Label 19400 2200 2    50   ~ 0
 ~WRITE_A
-Text Label 16850 14950 0    50   ~ 0
+Text Label 16850 15350 0    50   ~ 0
 ~WRITE_B
 Text Label 23900 2200 2    50   ~ 0
 ~WRITE_B
@@ -2634,7 +2634,7 @@ Text Label 23900 16200 2    50   ~ 0
 ~WRITE_B
 Text Label 25400 16200 2    50   ~ 0
 ~WRITE_B
-Text Label 16850 15050 0    50   ~ 0
+Text Label 16850 15450 0    50   ~ 0
 ~WRITE_B_2
 Text Label 10850 11400 0    50   ~ 0
 ~WRITE_B_2
@@ -2938,7 +2938,7 @@ Text Label 9850 11100 2    50   ~ 0
 ##105
 Text Label 2350 8650 0    50   ~ 0
 ##105
-Text Label 6300 7550 0    50   ~ 0
+Text Label 5650 7450 0    50   ~ 0
 ##105
 Text Label 10850 11100 0    50   ~ 0
 ##106
@@ -3356,7 +3356,7 @@ Text Label 6300 11950 0    50   ~ 0
 FIRST_SLOT
 Text Label 2600 18100 2    50   ~ 0
 FIRST_SLOT
-Text Label 5900 7950 2    50   ~ 0
+Text Label 5250 7850 2    50   ~ 0
 5V
 Text Label 5900 11950 2    50   ~ 0
 5V
@@ -3450,7 +3450,7 @@ Text Label 3350 13150 2    50   ~ 0
 ~UPPER_INSTALLED
 Text Label 7250 8300 2    50   ~ 0
 ~UPPER_INSTALLED
-Text Label 6300 7750 0    50   ~ 0
+Text Label 5650 7650 0    50   ~ 0
 ~UPPER_INSTALLED
 Text Label 5850 12800 2    50   ~ 0
 ~UPPER_INSTALLED
@@ -3460,7 +3460,7 @@ Text Label 3950 13150 0    50   ~ 0
 UPPER_INSTALLED
 Text Label 7250 8200 2    50   ~ 0
 UPPER_INSTALLED
-Text Label 6300 7950 0    50   ~ 0
+Text Label 5650 7850 0    50   ~ 0
 UPPER_INSTALLED
 Text Label 2950 15150 0    50   ~ 0
 ##191
@@ -3550,7 +3550,7 @@ Text Label 13150 19450 2    50   ~ 0
 LOWER
 Text Label 11700 19350 0    50   ~ 0
 ##202
-Text Label 6300 7650 0    50   ~ 0
+Text Label 5650 7550 0    50   ~ 0
 ##202
 NoConn ~ 5200 21300
 NoConn ~ 5200 21400
@@ -3572,7 +3572,7 @@ Text Label 7250 7700 2    50   ~ 0
 ##206
 Text Label 7250 7900 2    50   ~ 0
 ##206
-Text Label 6300 7850 0    50   ~ 0
+Text Label 5650 7750 0    50   ~ 0
 ##206
 Text Label 9600 12500 2    50   ~ 0
 ~WRITE_A_2
@@ -3908,4 +3908,60 @@ Wire Wire Line
 Connection ~ 12850 19550
 Text Label 16350 19400 0    50   ~ 0
 ~UPPER_INSTALLED
+Wire Notes Line
+	14650 18500 16750 18500
+Wire Notes Line
+	16750 18500 16750 19700
+Wire Notes Line
+	16750 19700 20100 19700
+Wire Notes Line
+	20100 19700 20100 21950
+Wire Notes Line
+	20100 21950 14650 21950
+Wire Notes Line
+	14650 21950 14650 18500
+Wire Notes Line
+	24200 20050 27450 20050
+Wire Notes Line
+	27450 20050 27450 22400
+Wire Notes Line
+	27450 22400 24200 22400
+Wire Notes Line
+	24200 22400 24200 20050
+Wire Notes Line
+	26850 800  26850 17050
+Wire Notes Line
+	26850 17050 21800 17050
+Wire Notes Line
+	21800 17050 21800 800 
+Wire Notes Line
+	21800 800  26850 800 
+Text Notes 14800 21150 0    50   ~ 0
+If upper bank is not installed, jumper IC44 pins 9 & 10.
+Wire Notes Line
+	10700 12100 11900 12100
+Wire Notes Line
+	11900 12100 11900 13300
+Wire Notes Line
+	11900 13300 10700 13300
+Wire Notes Line
+	10700 13300 10700 12100
+Wire Notes Line
+	16350 15000 17400 15000
+Wire Notes Line
+	17400 15000 17400 15900
+Wire Notes Line
+	17400 15900 16350 15900
+Wire Notes Line
+	16350 15900 16350 15000
+Text Notes 10700 13300 0    50   ~ 0
+Delete if only 512k
+Text Notes 16350 15900 0    50   ~ 0
+Delete if only 512k
+Text Notes 14650 21950 0    50   ~ 0
+Delete if only 512k
+Text Notes 24200 22400 0    50   ~ 0
+Delete if only 512k
+Text Notes 21850 17000 0    50   ~ 0
+Delete if only 512k
 $EndSCHEMATC

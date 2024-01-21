@@ -12,3 +12,4 @@ This is a work in progress
 | 66X2555  | 1x Front Panel Adapter             | Fully traced                               |
 | 4804680  | 1x Front Panel                     | Fully Traced                               |
 | 66X2450  | 1MB Memory Module                  | Fully Traced                               |
+| 8575400  | 1x Hard Drive flat-flex cable      | Fully Traced                               |
